@@ -1,0 +1,81 @@
+.settings {
+  display: flex;
+
+  &__wrapper {
+    flex: 9;
+    padding: 20px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__update-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: lightcoral;
+  }
+
+  &__delete-title {
+    font-size: 12px;
+    color: red;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    input {
+      color: gray;
+      margin: 10px 0;
+      height: 30px;
+      border: none;
+      border-bottom: 1px solid lightgray;
+    }
+  }
+
+  &__pp {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    &-icon {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: rgb(176, 175, 175);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  &__submit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
